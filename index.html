@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <main id="display">
+      <div id="calculator">
+        <div class="calculator__intro">
+          <h2>Online Calculator</h2>
+          <p>Enjoy this free online calculator for simple calculations</p>
+        </div>
+
+        <div class="calculator__screen">
+          <div id="operando1"></div>
+          <div id="operador"></div>
+          <div id="operando2"></div>
+        </div>
+
+        <div class="calculator__btn">
+          <div class="calculator__btn__numbers">
+            <button class="btn-numbers">0</button>
+            <button class="btn-numbers">1</button>
+            <button class="btn-numbers">2</button>
+            <button class="btn-numbers">3</button>
+            <button class="btn-numbers">4</button>
+            <button class="btn-numbers">5</button>
+            <button class="btn-numbers">6</button>
+            <button class="btn-numbers">7</button>
+            <button class="btn-numbers">8</button>
+            <button class="btn-numbers">9</button>
+            <button class="btn-numbers">.</button>
+          </div>
+
+          <div class="calculator__btn__operations">
+            <button class="btn-reset" id="reset">C</button>
+            <button class="btn-operator">+</button>
+            <button class="btn-operator">-</button>
+            <button class="btn-operator">*</button>
+            <button class="btn-operator">/</button>
+            <button class="btn-operator" id="btn_result" type="submit">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="calculator.js"></script>
+  </body>
+</html>
